@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg1.png");
+		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1533,7 +1533,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #5e5858ee;
+			color: #aaa;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1600,9 +1600,6 @@ input, select, textarea {
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
-		position: fixed;
-    	left: 500px;
-    	down: 10px;
 	}
 
 		input[type="button"]:hover,
@@ -1735,28 +1732,10 @@ input, select, textarea {
 
 /* Icons */
 
-
-	.textbutton{
-			background-color: transparent;
-			color: green;
-			opacity: 0.5;
-			font-size:10px;
-			margin:-20px;
-			padding:0px;
-			text-align: center;
-	}
-	.textbutton:hover {
-		color:white;
-		opacity:1;
-		}
-
-
-
 	.icon {
 		text-decoration: none;
 		position: relative;
 		text-decoration: none;
-		padding: 100px;
 	}
 
 		.icon:before {
@@ -1804,7 +1783,7 @@ input, select, textarea {
 			height: 1em;
 			line-height: 0.9em;
 			font-size: 2.5em;
-			margin: 0 0.25em 0 0.25em; 
+			margin: 0 0.25em 0 0.25em;
 			opacity: 0.35;
 			outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
